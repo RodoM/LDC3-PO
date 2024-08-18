@@ -1,8 +1,14 @@
-# React + Vite
+# Práctica obligatoria 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Resolver el siguiente ejercicio:
 
-Currently, two official plugins are available:
+En el componente `App.js` poseo el siguiente arreglo de ingresos brutos por compañia:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+`const netIncomes = [{brand: 'McDonalds', income: 1291283}, {brand: 'Burger King', income: 1927361}, {brand: 'KFC', income: 1098463}];`
+
+En el componente App:
+
+Escribir un componente `Table.js` que arme una tabla de HTML donde las columnas sean el nombre de la marca y el ingreso neto.
+
+Escribir una etiqueta `p` que muestre el promedio de ingreso neto entre todas las marcas. Utilizar obligatoriamente la función reduce para calcular el promedio.
