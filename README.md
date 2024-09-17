@@ -1,8 +1,19 @@
-# React + Vite
+## Debemos crear una aplicación de manejo de tareas personales.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### La app nos debe permitir:
 
-Currently, two official plugins are available:
+- Agregar una nueva tarea a la lista. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Marcar una tarea como completada e indicarlo de alguna manera (tachando el texto o cambiando el color del mismo (gris claro, por ejemplo)).
+
+- Borrar una tarea de la lista.
+
+
+
+### Sugerencias:
+
+- Crear el estado de las tareas en App.jsx para que se facilite el pasaje entre componentes. 
+
+- Crear un componente tipo lista que nos muestre todas las tareas de una lista. 
+
+- Crear un componente que nos permite agregar una nueva tarea.
